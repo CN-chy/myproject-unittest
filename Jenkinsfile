@@ -35,5 +35,10 @@ pipeline {
             bat '''python unit/security/security.py'''
             }
         }
+        stage('mail') {
+            steps {
+            bat '''python tool/mail.py'''
+            }
+        }
     }
 }
