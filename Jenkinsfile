@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-            git branch: master, credentialsId: 'efde19be-c1ba-4360-8a09-514fe653079e', url: 'https://github.com/CN-chy/position.git'
+                git credentialsId: 'd6deccd5-684f-4745-886f-939874d54721', url: 'https://github.com/CN-chy/myproject-unittest.git'
             }
         }
         stage('DataConfig') {
