@@ -58,7 +58,7 @@ def send_email(sender_email, sender_password, recipient_email, subject, attachme
         server.quit()
 attachments_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/docs'
 
-send_email('495936663@qq.com', 'qudzveekbkcbbigb', '495936663@qq.com', '自动化用例运行情况', attachments_dir)
+send_email('495936663@qq.com', '123456', '495936663@qq.com', '自动化用例运行情况', attachments_dir)
 
 
 
